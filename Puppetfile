@@ -13,6 +13,8 @@ mod "puppetlabs/postgresql",  '4.5.0'
 mod "puppet/stash",           '1.3.0'
 mod "puppetlabs/java",        '1.4.1'
 mod "npwalker/pe_code_manager_webhook", '1.0.3'
+mod 'stahnma/epel',           :latest
+mod 'WhatsARanjit/node_manager', :latest
 
 #An example of using a specific forge module version instead of latest
 #Notice the addition of single quotes
@@ -40,3 +42,9 @@ mod 'gms',
 mod 'pltraining-rbac',
   :git    => 'https://github.com/puppetlabs/pltraining-rbac',
   :ref    => '2f60e1789a721ce83f8df061e13f8bf81cd4e4ce'
+
+mod 'pe_failover',
+  :git => 'https://github.com/ipcrm/pe_failover.git',
+  :ref => 'master'
+
+
