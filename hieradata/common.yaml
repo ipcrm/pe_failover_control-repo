@@ -14,8 +14,6 @@ puppet_enterprise::profile::console::classifier_synchronization_period: 0
 
 
 #mcollective
-puppet_enterprise::profile::mcollective::peadmin::activemq_brokers:
-  - puppet.inf.puppetlabs.demo
 puppet_enterprise::profile::mcollective::peadmin::stomp_password: ZPaVE3dCiHeR9aqQqaNR
 puppet_enterprise::profile::mcollective::agent::activemq_brokers:
   - puppet.inf.puppetlabs.demo
@@ -23,5 +21,4 @@ puppet_enterprise::profile::mcollective::agent::stomp_password: ZPaVE3dCiHeR9aqQ
 puppet_enterprise::profile::amq::broker::stomp_password: ZPaVE3dCiHeR9aqQqaNR
 
 #orchestration
-puppet_enterprise::profile::orchestrator::master_host: puppet.inf.puppetlabs.demo
-
+puppet_enterprise::profile::agent::pcp_broker_host: puppet.inf.puppetlabs.demo
