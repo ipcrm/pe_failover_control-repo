@@ -23,5 +23,3 @@ puppet_enterprise::profile::amq::broker::stomp_password: ZPaVE3dCiHeR9aqQqaNR
 #orchestration
 puppet_enterprise::profile::agent::pcp_broker_host: puppet
 
-#filesync
-puppet_enterprise::puppet_master_host: puppetha
