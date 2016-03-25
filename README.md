@@ -20,7 +20,7 @@ Table of Contents
 * [Appendix](#appendix)
   * [Test The Zack/r10k Webhook](#test-the-zackr10k-webhook)
 
-# Before Starting
+# Before Starting.
 
 This control repo and the steps below are intended to be used during a new installation of PE.
 
