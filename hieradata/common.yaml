@@ -22,4 +22,3 @@ puppet_enterprise::profile::amq::broker::stomp_password: ZPaVE3dCiHeR9aqQqaNR
 
 #orchestration
 puppet_enterprise::profile::agent::pcp_broker_host: puppet.inf.puppetlabs.demo
-puppet_enterprise::profile::orchestrator::master_host: puppet.inf.puppetlabs.demo
